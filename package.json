@@ -4,7 +4,8 @@
   "description": "Learning ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "NODE_ENV=development nodemon app.js",
+    "prod": "NODE_ENV=production nodemon app.js"
   },
   "repository": {
     "type": "git",
